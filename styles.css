@@ -1,0 +1,47 @@
+body {
+  background-color: neonpink;
+  font-family: "Comic Sans MS", cursive;
+  color: rgb(46, 9, 107);
+  margin: 50px;
+  border: 20px dotted orange;
+}
+
+h1 {
+  font-size: 80px;
+  background-color: rgb(241, 51, 3);
+  text-align: center;
+  text-decoration: underline overline line-through;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: square;
+  background-color: cyan;
+  padding: 40px;
+}
+
+nav a {
+  color: rgb(50, 77, 46);
+  font-size: 20px;
+  background-color: purple;
+  padding: 20px;
+  border: 10px ridge gold;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border: 15px groove rgb(230, 253, 19);
+  margin: 40px;
+  transform: rotate(15deg);
+}
+
+footer {
+  background-color: black;
+  color: rgb(105, 233, 255);
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+  border-top: 10px dashed green;
+}
